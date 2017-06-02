@@ -118,7 +118,7 @@
     <Content Include="img\banner img.jpg" />
     <Content Include="Styles\StyleSheet1.css" />
     <Content Include="Web.config" />
-    <Content Include="Home.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Resume.aspx" />
     <Content Include="Contact.aspx" />
@@ -126,12 +126,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
